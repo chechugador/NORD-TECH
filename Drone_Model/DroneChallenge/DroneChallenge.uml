@@ -10,15 +10,9 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_B7aH8NBkEeicNJzTBfPS9Q">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/QUDV.uml#QUDV"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_RgTZMNBkEeicNJzTBfPS9Q" name="Drone Must Fly">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_ldVIUNBkEeicNJzTBfPS9Q" name="Drone Must Land"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Z24C8OanEeiW3JCRY9FFBg" name="Drone Must Fly">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_i9__gOanEeiW3JCRY9FFBg" name="Drone Must Take-Off"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_1iSkQNBlEeicNJzTBfPS9Q" name="Drone Must Take-Off"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_b9EysNBnEeicNJzTBfPS9Q" name="Drone Must Not Collide">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_yCKagNBnEeicNJzTBfPS9Q" name="Drone Must Detect Obstacles"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_8gdlYNBnEeicNJzTBfPS9Q" name="Drone Must Avoid Obstacles"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_HMV5QNBoEeicNJzTBfPS9Q" name="Drone Must Stop"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwSdENBkEeicNJzTBfPS9Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwa_8NBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -80,11 +74,6 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_Rjl9wNBkEeicNJzTBfPS9Q" base_Class="_RgTZMNBkEeicNJzTBfPS9Q" id="REQ-1" text="the drone must be able to fly"/>
-  <Requirements:Requirement xmi:id="_ldbO8NBkEeicNJzTBfPS9Q" base_Class="_ldVIUNBkEeicNJzTBfPS9Q" id="REQ-1.1" text="The drone must be able to land"/>
-  <Requirements:Requirement xmi:id="_1iYD0NBlEeicNJzTBfPS9Q" base_Class="_1iSkQNBlEeicNJzTBfPS9Q" id="REQ-1.2" text="The drone must be able to take-off&#xA;"/>
-  <Requirements:Requirement xmi:id="_b9JrMNBnEeicNJzTBfPS9Q" base_Class="_b9EysNBnEeicNJzTBfPS9Q" id="REQ-2" text="The drone must not collide with obstacles"/>
-  <Requirements:Requirement xmi:id="_yCOr8NBnEeicNJzTBfPS9Q" base_Class="_yCKagNBnEeicNJzTBfPS9Q" id="REQ-2.1" text="The drone must be able to detect obstacles"/>
-  <Requirements:Requirement xmi:id="_8gh20NBnEeicNJzTBfPS9Q" base_Class="_8gdlYNBnEeicNJzTBfPS9Q" id="REQ-2.2" text="The drone must be able to avoid obstacles while moving"/>
-  <Requirements:Requirement xmi:id="_HMYVgNBoEeicNJzTBfPS9Q" base_Class="_HMV5QNBoEeicNJzTBfPS9Q" id="REQ-2.3" text="The drone must be able to stop itself in case the obstacle cannot be avoided"/>
+  <Requirements:Requirement xmi:id="_Z3Al0OanEeiW3JCRY9FFBg" base_Class="_Z24C8OanEeiW3JCRY9FFBg" id="REQ_1" text="The drone must be able to fly"/>
+  <Requirements:Requirement xmi:id="_i-H7UOanEeiW3JCRY9FFBg" base_Class="_i9__gOanEeiW3JCRY9FFBg" id="REQ_1.1" text="To be able to fly, the drone must be able to take-off&#xA;"/>
 </xmi:XMI>
