@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_Bk7hoNBkEeicNJzTBfPS9Q" name="DroneChallenge">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_BwtT0NBkEeicNJzTBfPS9Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_BxTwwNBkEeicNJzTBfPS9Q">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_B7aH8NBkEeicNJzTBfPS9Q">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/QUDV.uml#QUDV"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RgTZMNBkEeicNJzTBfPS9Q" name="Drone Must Fly">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ldVIUNBkEeicNJzTBfPS9Q" name="Drone Must Land"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1iSkQNBlEeicNJzTBfPS9Q" name="Drone Must Take-Off"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b9EysNBnEeicNJzTBfPS9Q" name="Drone Must Not Collide">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_yCKagNBnEeicNJzTBfPS9Q" name="Drone Must Detect Obstacles"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_8gdlYNBnEeicNJzTBfPS9Q" name="Drone Must Avoid Obstacles"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HMV5QNBoEeicNJzTBfPS9Q" name="Drone Must Stop"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwSdENBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwa_8NBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Bwf4cNBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwgfgNBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwlYANBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwl_ENBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Bwl_EdBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwmmINBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwmmIdBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwnNMNBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Bwn0QNBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwn0QdBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwobUNBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwobUdBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwpCYNBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwppcNBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwqQgNBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwq3kNBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwreoNBkEeicNJzTBfPS9Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwsFsNBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_Rjl9wNBkEeicNJzTBfPS9Q" base_Class="_RgTZMNBkEeicNJzTBfPS9Q" id="REQ-1" text="the drone must be able to fly"/>
+  <Requirements:Requirement xmi:id="_ldbO8NBkEeicNJzTBfPS9Q" base_Class="_ldVIUNBkEeicNJzTBfPS9Q" id="REQ-1.1" text="The drone must be able to land"/>
+  <Requirements:Requirement xmi:id="_1iYD0NBlEeicNJzTBfPS9Q" base_Class="_1iSkQNBlEeicNJzTBfPS9Q" id="REQ-1.2" text="The drone must be able to take-off&#xA;"/>
+  <Requirements:Requirement xmi:id="_b9JrMNBnEeicNJzTBfPS9Q" base_Class="_b9EysNBnEeicNJzTBfPS9Q" id="REQ-2" text="The drone must not collide with obstacles"/>
+  <Requirements:Requirement xmi:id="_yCOr8NBnEeicNJzTBfPS9Q" base_Class="_yCKagNBnEeicNJzTBfPS9Q" id="REQ-2.1" text="The drone must be able to detect obstacles"/>
+  <Requirements:Requirement xmi:id="_8gh20NBnEeicNJzTBfPS9Q" base_Class="_8gdlYNBnEeicNJzTBfPS9Q" id="REQ-2.2" text="The drone must be able to avoid obstacles while moving"/>
+  <Requirements:Requirement xmi:id="_HMYVgNBoEeicNJzTBfPS9Q" base_Class="_HMV5QNBoEeicNJzTBfPS9Q" id="REQ-2.3" text="The drone must be able to stop itself in case the obstacle cannot be avoided"/>
+</xmi:XMI>
