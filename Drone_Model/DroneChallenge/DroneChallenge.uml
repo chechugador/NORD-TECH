@@ -10,8 +10,8 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_B7aH8NBkEeicNJzTBfPS9Q">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/QUDV.uml#QUDV"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Z24C8OanEeiW3JCRY9FFBg" name="Drone Must Fly">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_i9__gOanEeiW3JCRY9FFBg" name="Drone Must Take-Off"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Z24C8OanEeiW3JCRY9FFBg" name="CONTRIBUTOR: JOSE Luis">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_i9__gOanEeiW3JCRY9FFBg" name="CONTRIBUTOR: JOSE Luis"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwSdENBkEeicNJzTBfPS9Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwa_8NBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
