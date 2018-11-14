@@ -24,7 +24,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z3E3SeanEeiW3JCRY9FFBg"/>
     </children>
     <element xmi:type="uml:Class" href="DroneChallenge.uml#_Z24C8OanEeiW3JCRY9FFBg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z3DpIeanEeiW3JCRY9FFBg" x="260" y="40" width="267" height="81"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z3DpIeanEeiW3JCRY9FFBg" x="260" y="40" width="267" height="101"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_i-LlsOanEeiW3JCRY9FFBg" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_i-MMwOanEeiW3JCRY9FFBg" type="Class_NameLabel"/>
@@ -50,23 +50,91 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-MM0eanEeiW3JCRY9FFBg"/>
     </children>
     <element xmi:type="uml:Class" href="DroneChallenge.uml#_i9__gOanEeiW3JCRY9FFBg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-LlseanEeiW3JCRY9FFBg" x="20" y="160" width="346" height="76"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-LlseanEeiW3JCRY9FFBg" x="100" y="220" width="346" height="121"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_ysZ8oOaoEeiW3JCRY9FFBg" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_ysZ8oeaoEeiW3JCRY9FFBg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ysZ8o-aoEeiW3JCRY9FFBg" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_PKGW4OgKEeiXP-buIg47-Q" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_PKGW4egKEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PKGW4-gKEeiXP-buIg47-Q" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_Z24C8OanEeiW3JCRY9FFBg"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ysZ8ouaoEeiW3JCRY9FFBg" x="460" y="40"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKGW4ugKEeiXP-buIg47-Q" x="460" y="40"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_ys8vMOaoEeiW3JCRY9FFBg" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_ys8vMeaoEeiW3JCRY9FFBg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ys8vM-aoEeiW3JCRY9FFBg" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_PLDZI-gKEeiXP-buIg47-Q" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_PLDZJOgKEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PLDZJugKEeiXP-buIg47-Q" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_i9__gOanEeiW3JCRY9FFBg"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ys8vMuaoEeiW3JCRY9FFBg" x="220" y="160"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PLDZJegKEeiXP-buIg47-Q" x="220" y="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_S5BDMegLEeiXP-buIg47-Q" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S5BDM-gLEeiXP-buIg47-Q" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S5BDNOgLEeiXP-buIg47-Q" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_S5BDNegLEeiXP-buIg47-Q" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_S5BDNugLEeiXP-buIg47-Q" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_S5BDN-gLEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_S5BDOOgLEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_S5BDOegLEeiXP-buIg47-Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S5BDOugLEeiXP-buIg47-Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_S5BDO-gLEeiXP-buIg47-Q" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_S5BDPOgLEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_S5BDPegLEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_S5BDPugLEeiXP-buIg47-Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S5BDP-gLEeiXP-buIg47-Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_S5BDQOgLEeiXP-buIg47-Q" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_S5BDQegLEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_S5BDQugLEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_S5BDQ-gLEeiXP-buIg47-Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S5BDROgLEeiXP-buIg47-Q"/>
+    </children>
+    <element xmi:type="uml:Class" href="DroneChallenge.uml#_S468kOgLEeiXP-buIg47-Q"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S5BDMugLEeiXP-buIg47-Q" x="640" y="40" width="281" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_S5HJ7OgLEeiXP-buIg47-Q" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_S5HJ7egLEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_S5HJ7-gLEeiXP-buIg47-Q" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_S468kOgLEeiXP-buIg47-Q"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S5HJ7ugLEeiXP-buIg47-Q" x="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FHYp4OgMEeiXP-buIg47-Q" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FHYp4ugMEeiXP-buIg47-Q" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FHYp4-gMEeiXP-buIg47-Q" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FHYp5OgMEeiXP-buIg47-Q" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FHYp5egMEeiXP-buIg47-Q" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_FHYp5ugMEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FHYp5-gMEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FHYp6OgMEeiXP-buIg47-Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHYp6egMEeiXP-buIg47-Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FHYp6ugMEeiXP-buIg47-Q" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_FHYp6-gMEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FHYp7OgMEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FHYp7egMEeiXP-buIg47-Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHYp7ugMEeiXP-buIg47-Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FHYp7-gMEeiXP-buIg47-Q" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_FHYp8OgMEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FHYp8egMEeiXP-buIg47-Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FHYp8ugMEeiXP-buIg47-Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHYp8-gMEeiXP-buIg47-Q"/>
+    </children>
+    <element xmi:type="uml:Class" href="DroneChallenge.uml#_FHSjQOgMEeiXP-buIg47-Q"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHYp4egMEeiXP-buIg47-Q" x="800" y="220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FHewnOgMEeiXP-buIg47-Q" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_FHewnegMEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FHewn-gMEeiXP-buIg47-Q" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_FHSjQOgMEeiXP-buIg47-Q"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FHewnugMEeiXP-buIg47-Q" x="200"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_B4q9AdBkEeicNJzTBfPS9Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_B4q9AtBkEeicNJzTBfPS9Q"/>
@@ -82,24 +150,51 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qcgYcOanEeiW3JCRY9FFBg" id="(0.5243445692883895,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qcgYceanEeiW3JCRY9FFBg" id="(0.7514450867052023,0.0)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_ysajsOaoEeiW3JCRY9FFBg" type="StereotypeCommentLink" source="_Z3DpIOanEeiW3JCRY9FFBg" target="_ysZ8oOaoEeiW3JCRY9FFBg">
-    <styles xmi:type="notation:FontStyle" xmi:id="_ysajseaoEeiW3JCRY9FFBg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ysajteaoEeiW3JCRY9FFBg" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_PKGW5OgKEeiXP-buIg47-Q" type="StereotypeCommentLink" source="_Z3DpIOanEeiW3JCRY9FFBg" target="_PKGW4OgKEeiXP-buIg47-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PKGW5egKEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PKGW6egKEeiXP-buIg47-Q" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_Z24C8OanEeiW3JCRY9FFBg"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ysajsuaoEeiW3JCRY9FFBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ysajs-aoEeiW3JCRY9FFBg"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ysajtOaoEeiW3JCRY9FFBg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PKGW5ugKEeiXP-buIg47-Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PKGW5-gKEeiXP-buIg47-Q"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PKGW6OgKEeiXP-buIg47-Q"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_ys8vNOaoEeiW3JCRY9FFBg" type="StereotypeCommentLink" source="_i-LlsOanEeiW3JCRY9FFBg" target="_ys8vMOaoEeiW3JCRY9FFBg">
-    <styles xmi:type="notation:FontStyle" xmi:id="_ys8vNeaoEeiW3JCRY9FFBg"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ys9WQOaoEeiW3JCRY9FFBg" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_PLDZJ-gKEeiXP-buIg47-Q" type="StereotypeCommentLink" source="_i-LlsOanEeiW3JCRY9FFBg" target="_PLDZI-gKEeiXP-buIg47-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PLDZKOgKEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PLDZLOgKEeiXP-buIg47-Q" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_i9__gOanEeiW3JCRY9FFBg"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ys8vNuaoEeiW3JCRY9FFBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ys8vN-aoEeiW3JCRY9FFBg"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ys8vOOaoEeiW3JCRY9FFBg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PLDZKegKEeiXP-buIg47-Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PLDZKugKEeiXP-buIg47-Q"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PLDZK-gKEeiXP-buIg47-Q"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_S5HJ8OgLEeiXP-buIg47-Q" type="StereotypeCommentLink" source="_S5BDMegLEeiXP-buIg47-Q" target="_S5HJ7OgLEeiXP-buIg47-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_S5HJ8egLEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_S5HJ9egLEeiXP-buIg47-Q" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_S468kOgLEeiXP-buIg47-Q"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S5HJ8ugLEeiXP-buIg47-Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S5HJ8-gLEeiXP-buIg47-Q"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S5HJ9OgLEeiXP-buIg47-Q"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FHewoOgMEeiXP-buIg47-Q" type="StereotypeCommentLink" source="_FHYp4OgMEeiXP-buIg47-Q" target="_FHewnOgMEeiXP-buIg47-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_FHewoegMEeiXP-buIg47-Q"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FHewpegMEeiXP-buIg47-Q" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="DroneChallenge.uml#_FHSjQOgMEeiXP-buIg47-Q"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FHewougMEeiXP-buIg47-Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FHewo-gMEeiXP-buIg47-Q"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FHewpOgMEeiXP-buIg47-Q"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_SOPycOgMEeiXP-buIg47-Q" type="Element_ContainmentEdge" source="_S5BDMegLEeiXP-buIg47-Q" target="_FHYp4OgMEeiXP-buIg47-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_SOPycegMEeiXP-buIg47-Q"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SOPycugMEeiXP-buIg47-Q" points="[980, 421, -643984, -643984]$[900, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SOoM8OgMEeiXP-buIg47-Q" id="(0.7117437722419929,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SOoM8egMEeiXP-buIg47-Q" id="(0.5825242718446602,0.0)"/>
   </edges>
 </notation:Diagram>
