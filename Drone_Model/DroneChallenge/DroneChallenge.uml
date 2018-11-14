@@ -17,6 +17,7 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_FHSjQOgMEeiXP-buIg47-Q" name="GPS by JOSÉ MARÍA at 14Nov"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_qivWcOgfEeim_JRnlQZbbg" name="FLIGHT MODE by ELENA CRESPO at 14Nov"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_X7rn0Og3EeiplpdFFMs_Iw" name="OBSTACLE DETECTION by Daniel at 14 Nov"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwSdENBkEeicNJzTBfPS9Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwa_8NBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -83,4 +84,5 @@
   <Requirements:Requirement xmi:id="_S5BDMOgLEeiXP-buIg47-Q" base_Class="_S468kOgLEeiXP-buIg47-Q" id="REQ_2" text="The drone must be able to know its position and orientation"/>
   <Requirements:Requirement xmi:id="_FHSjQegMEeiXP-buIg47-Q" base_Class="_FHSjQOgMEeiXP-buIg47-Q" id="REQ_2.1" text="The drone must have a GPS device"/>
   <Requirements:Requirement xmi:id="_qi1dEOgfEeim_JRnlQZbbg" base_Class="_qivWcOgfEeim_JRnlQZbbg" id="REQ 3" text="The drone must fly autonomously, by default.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_X8mN0Og3EeiplpdFFMs_Iw" base_Class="_X7rn0Og3EeiplpdFFMs_Iw" id="REQ_4" text="The drone must be able to detect and avoid obstacles."/>
 </xmi:XMI>
