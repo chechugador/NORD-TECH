@@ -20,6 +20,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_X7rn0Og3EeiplpdFFMs_Iw" name="OBSTACLE DETECTION by Daniel at 14 Nov"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_8WNBcOvXEeiBCLE6eMXfTg" name="SPACE LIMITS by JESÚS PAREJA at 19Nov"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_8g608OvdEeiYwbHoQwleTA" name="TAKE OFF by Elena de la Fuente at 19Nov"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3UiS0OvhEeiWM971iTl8cg" name="REALTIME by JAIME NIETO at 19Nov"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwSdENBkEeicNJzTBfPS9Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwa_8NBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -89,4 +90,5 @@
   <Requirements:Requirement xmi:id="_X8mN0Og3EeiplpdFFMs_Iw" base_Class="_X7rn0Og3EeiplpdFFMs_Iw" id="REQ_4" text="The drone must be able to detect and avoid obstacles."/>
   <Requirements:Requirement xmi:id="_8W92cOvXEeiBCLE6eMXfTg" base_Class="_8WNBcOvXEeiBCLE6eMXfTg" id="REQ_5" text="The drone must be, at every moment, inside the borders of the building."/>
   <Requirements:Requirement xmi:id="_8hnYgOvdEeiYwbHoQwleTA" base_Class="_8g608OvdEeiYwbHoQwleTA" id="REQ_6" text="El dron será capaz de aterrizar en el mismo punto de despegue si las condiciones externas lo permiten"/>
+  <Requirements:Requirement xmi:id="_3Vk0oOvhEeiWM971iTl8cg" base_Class="_3UiS0OvhEeiWM971iTl8cg" id="REQ_7" text="The drone must show real-time images capted by the camera"/>
 </xmi:XMI>
