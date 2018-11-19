@@ -18,6 +18,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_qivWcOgfEeim_JRnlQZbbg" name="FLIGHT MODE by ELENA CRESPO at 14Nov"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_X7rn0Og3EeiplpdFFMs_Iw" name="OBSTACLE DETECTION by Daniel at 14 Nov"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8WNBcOvXEeiBCLE6eMXfTg" name="SPACE LIMITS by JESÚS PAREJA at 19Nov"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BwSdENBkEeicNJzTBfPS9Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bwa_8NBkEeicNJzTBfPS9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -85,4 +86,5 @@
   <Requirements:Requirement xmi:id="_FHSjQegMEeiXP-buIg47-Q" base_Class="_FHSjQOgMEeiXP-buIg47-Q" id="REQ_2.1" text="The drone must have a GPS device"/>
   <Requirements:Requirement xmi:id="_qi1dEOgfEeim_JRnlQZbbg" base_Class="_qivWcOgfEeim_JRnlQZbbg" id="REQ 3" text="The drone must fly autonomously, by default.&#xD;&#xA;"/>
   <Requirements:Requirement xmi:id="_X8mN0Og3EeiplpdFFMs_Iw" base_Class="_X7rn0Og3EeiplpdFFMs_Iw" id="REQ_4" text="The drone must be able to detect and avoid obstacles."/>
+  <Requirements:Requirement xmi:id="_8W92cOvXEeiBCLE6eMXfTg" base_Class="_8WNBcOvXEeiBCLE6eMXfTg" id="REQ_5" text="The drone must be, at every moment, inside the borders of the building."/>
 </xmi:XMI>
