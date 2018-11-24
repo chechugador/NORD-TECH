@@ -96,5 +96,5 @@
   <Requirements:Requirement xmi:id="_3Vk0oOvhEeiWM971iTl8cg" base_Class="_3UiS0OvhEeiWM971iTl8cg" id="REQ_7" text="The drone must show real-time images capted by the camera"/>
   <Requirements:Requirement xmi:id="_0zWBEOvkEeiH8Ocy9BT-ng" base_Class="_0y_bwOvkEeiH8Ocy9BT-ng" id="REQ_8" text="The drone must weight less than 2kg so as to comply the current law."/>
   <Requirements:Requirement xmi:id="_oPIRkOvvEeiJfviWzi9Yvw" base_Class="_oO-gkOvvEeiJfviWzi9Yvw" id="REQ_9" text="The drone have to control its battery level and won't take off when it is low."/>
-  <Requirements:Requirement xmi:id="_Q1MzQPAMEeiabq2kQwVTzw" base_Class="_Q0jTAPAMEeiabq2kQwVTzw" id="REQ_10" text="The drone must be able to swith to manual control in case it is necessary for an operator to intervene"/>
+  <Requirements:Requirement xmi:id="_Q1MzQPAMEeiabq2kQwVTzw" base_Class="_Q0jTAPAMEeiabq2kQwVTzw" id="REQ_10" text="The drone must be able to switch to manual control in case it is necessary for an operator to intervene"/>
 </xmi:XMI>
